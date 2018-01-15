@@ -150,8 +150,9 @@ function fullScreenSlider() {
             animation: "slide",
             //  startAt: 0,
             animationSpeed: 700,
-            animationLoop: true,
-            slideshow: true,
+            animationLoop: false,
+            slideshow: false,
+            touch: false,
             easing: "swing",
             controlNav: false,
             before: function (slider) {
